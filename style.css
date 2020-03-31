@@ -1,0 +1,17 @@
+.container{
+    margin-bottom:100px;
+}
+.pink-bg{
+    background: #fac3ee;
+    border-radius:20px;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.my-button{
+    background-color: black;
+    color: white;
+    padding:5px 5px;
+    border-radius:5px;
+    border:none;
+}
