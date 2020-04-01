@@ -1,81 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hot Gadgets</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hot-gadgets</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="#">
-            <img src="images/logo.png" alt="">
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#product">Product</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about-us">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="#contact-us" >Contact Us</a>
-            </li>
-          </ul>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active ">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#smartphone">Smartphone</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#laptop">Laptop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#categories">Categories</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  
+  <div class="container">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row d-flex align-items-center">
+           <div class="col-md-5">
+                 <h3>Mackbook Pro</h3>
+                 <p>Contrary to popular belief,Lorem Ipsum is not simply random text,it has roots in a piece of classical Latin literature.</p>
+                 <button class="my-button">BUY NOW</button>
+           </div>
+           <div class="col-md-7">
+              <img src="images/banner-products/product-1.png" class="d-block w-100" alt="...">
+           </div>
+           </div>
         </div>
-      </nav>
-   </div>
-
-    <div class="container pink-bg">
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                  <div class="row align-items-center">
-                      <div class="col-md-5">
-                          <h1>Mackbook Pro</h1>
-                          <p>Contrary to popular belief,Lorem Ipsum is not simply random text,it has roots in a piece of classical Latin literature.</p>
-                          <button class="my-button">BUY NOW</button>
-                      </div>
-                      <div class="col-md-7">
-                        <img src="images/banner-products/product-1.png" class="d-block w-100" alt="...">
-                      </div>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                  <div class="row  align-items-center">
-                      <div class="col-md-5 ">
-                          <h1>Mackbook Pro</h1>
-                        <p>Contrary to popular belief,Lorem Ipsum is not simply random text,it has roots in a piece of classical Latin literature.</p>
-                      </div>
-                      <div class="col-md-7 ">
-                        <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="...">
-                      </div>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                <div class="row  align-items-center">
-                    <div class="col-md-5">
-                        <h1>Mackbook Pro</h1>
-                        <p>Contrary to popular belief,Lorem Ipsum is not simply random text,it has roots in a piece of classical Latin literature.</p> 
-                    </div>
-                    <div class="col-md-7">
-                        <img src="images/banner-products/slider-3.png" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-              </div>
+        <div class="carousel-item">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-5">
+              <h3>Mackbook Pro</h3>
+              <p>Contrary to popular belief,Lorem Ipsum is not simply random text,it has roots in a piece of classical Latin literature.</p>
+              <button class="my-button">BUY NOW</button>
+            </div>
+            <div class="col-md-7">
+               <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="...">
             </div>
           </div>
-
+        </div>
+        <div class="carousel-item">
+          <div class="row d-flex align-items-center">
+            <div class="col-md-5">
+              <h3>Mackbook Pro</h3>
+              <p>Contrary to popular belief,Lorem Ipsum is not simply random text,it has roots in a piece of classical Latin literature.</p>
+              <button class="my-button">BUY NOW</button>
+            </div>
+            <div class="col-md-7">
+               <img src="images/banner-products/slider-3.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
+
+  <div class="container" id="smartphone">
+    <div class="d-flex bd-highlight">
+      <div class="p-2 flex-grow-1 bd-highlight">Smartphone</div>
+      <div class="p-2 bd-highlight"><a href="https://www.google.com/search?sxsrf=ALeKk01s3vTWSuJta37PZR3LRzXY5V4FQg%3A1585756626743&ei=0rmEXv6CLcH49QOl076wDA&q=best+smartphone&oq=new+smartphone&gs_lcp=CgZwc3ktYWIQARgGMgQIABBHMgQIABBHMgQIABBHMgQIABBHMgQIABBHMgQIABBHMgQIABBHMgQIABBHUABYAGCaSWgAcAJ4AIABAIgBAJIBAJgBAKoBB2d3cy13aXo&sclient=psy-ab">See All</a></div>
+    </div>
+    <div class="card-deck">
+      <div class="card">
+        <img src="images/phone/phone-1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Redmi</h5>
+          <p class="card-text">Some quick example text to build on the card title.</p><br>
+          <h4>$699</h4>
+        </div>
+        <div class="card-footer d-flex justify-content-center">
+           <button class="my-button">BUY NOW</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/phone/phone-2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">iphone 11 Pro</h5>
+          <p class="card-text">Some quick example text to build on the card title.</p><br>
+          <h4>$999</h4>
+        </div>
+        <div class="card-footer d-flex justify-content-center">
+           <button class="my-button">BUY NOW</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/phone/phone-3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Samsung Galaxy Note 10+</h5>
+          <p class="card-text">Some quick example text to build on the card title.</p><br>
+          <h4>$799</h4>
+        </div>
+        <div class="card-footer d-flex justify-content-center">
+           <button class="my-button">BUY NOW</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="container" id="laptop">
+    <div class="d-flex bd-highlight">
+      <div class="p-2 flex-grow-1 bd-highlight">Laptop</div>
+      <div class="p-2 bd-highlight"><a href="https://www.google.com/search?sxsrf=ALeKk01s3vTWSuJta37PZR3LRzXY5V4FQg%3A1585756626743&ei=0rmEXv6CLcH49QOl076wDA&q=best+smartphone&oq=new+smartphone&gs_lcp=CgZwc3ktYWIQARgGMgQIABBHMgQIABBHMgQIABBHMgQIABBHMgQIABBHMgQIABBHMgQIABBHMgQIABBHUABYAGCaSWgAcAJ4AIABAIgBAJIBAJgBAKoBB2d3cy13aXo&sclient=psy-ab">See All</a></div>
+    </div>
+    <div class="card-deck">
+      <div class="card">
+        <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Asus VivoBook</h5>
+          <p class="card-text">Some quick example text to build on the card title.</p><br>
+          <h4>$999</h4>
+        </div>
+        <div class="card-footer d-flex justify-content-center">
+           <button class="my-button">BUY NOW</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Rzer Blade 15</h5>
+          <p class="card-text">Some quick example text to build on the card title.</p><br>
+          <h4>$2799</h4>
+        </div>
+        <div class="card-footer d-flex justify-content-center">
+           <button class="my-button">BUY NOW</button>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Xiaomi Mi Note book Pro</h5>
+          <p class="card-text">Some quick example text to build on the card title.</p><br>
+          <h4>$999</h4>
+        </div>
+        <div class="card-footer d-flex justify-content-center">
+           <button class="my-button">BUY NOW</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="categories">
+    <div class="row">
+      <div class="col-md-3 align-items-center">
+        <div class="bag ">
+          <img src="images/Categories/bag.png" alt="">
+        </div>
+      </div>
+         <div class="col-md-3">
+           <div class="perfume d-flex align-items-stretch">
+            <img src="images/Categories/perfume.png" alt="">
+           </div>
+           <div class="shoe">
+            <img src="images/Categories/shoe.png" alt="">
+           </div>
+         </div>
+      <div class="col-md-6">
+        <img src="images/Categories/pale-order.png" alt="">
+      </div>
+    </div>
+  </div>
 
 
 
@@ -88,11 +197,8 @@
 
 
 
-
-
-
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script> 
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>

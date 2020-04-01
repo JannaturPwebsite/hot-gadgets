@@ -1,17 +1,26 @@
 .container{
-    margin-bottom:100px;
-}
-.pink-bg{
-    background: #fac3ee;
-    border-radius:20px;
-}
-.carousel-item{
-    padding: 20px 40px;
+    margin-bottom: 100px;
 }
 .my-button{
-    background-color: black;
-    color: white;
-    padding:5px 5px;
+    padding:9px 25px;
     border-radius:5px;
-    border:none;
+    background-color:black;
+    border: none;
+    color: white;
+}
+.card{
+    box-shadow:5px 5px 10px lightslategrey;
+    border: none;
+    border-radius:10px;
+    padding:10px;
+}
+.card-body{
+    text-align:center;
+}
+.card-footer{
+    border-top: none;
+    background-color: white;
+}
+.col-md-3{
+    border: 1px solid red;
 }
